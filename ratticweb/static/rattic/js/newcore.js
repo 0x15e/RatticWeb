@@ -778,5 +778,8 @@ $(document).ready(function () {
 
   // Start collecting random numbers
   sjcl.random.startCollectors();
+
+  // Focus the id_username box because if it's on the page, we probably want to log in
+  $("#id_username").focus();
 });
 
